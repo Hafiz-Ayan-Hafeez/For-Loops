@@ -92,8 +92,8 @@ for (var i = 1; i <= 20; i++) {
     else{}
 }
 
-var bakeryItemsArray = ["Cake" , "Apple Pie" , "Cookie" , "Chips" , "Patties"];
 var head14 = document.querySelector ("#head14");
+var bakeryItemsArray = ["cake" , "apple pie" , "cookie" , "chips" , "patties"];
 var search = prompt("Welcome to ABC Bakery. What do you want to Order Sir / Ma'am")
 
     if (bakeryItemsArray.indexOf(search.toLowerCase()) === -1) {
@@ -151,8 +151,8 @@ function smallest() {
 smallest();
 
 var head19 = document.querySelector ("#head19");
-var head18 = document.querySelector ("#head20");
-var head17 = document.querySelector ("#head21");
+var head20 = document.querySelector ("#head20");
+var head21 = document.querySelector ("#head21");
 
 var identifier = [24 , 53 , 78 , 91 , 12];
 head19.innerHTML += " " + identifier + ", ";
@@ -248,7 +248,7 @@ var userInput = +prompt("Enter Any Number");
 
 for (var i = userInput; i >= 0; i--){
     console.log(i , i - 0.5);
-    head29.innerHTML = "Answer is in Console"
+    head29.innerHTML = "Answer is in Console"; 
 }
 
 var head30 = document.querySelector ("#head30");
@@ -266,7 +266,7 @@ var head31 = document.querySelector ("#head31");
 
 for (var i = 0; i <= 7; i++) {
     if (i % 2 != 0){
-        head31.innerHTML = `The Product of the Odd Integers from 1 to 7 is ${1 * 3 * 5 * 7}`
+        head31.innerHTML = `The Product of the Odd Integers from 1 to 7 is ${1 * 3 * 5 * 7  }`
     }
     else{}
 }
